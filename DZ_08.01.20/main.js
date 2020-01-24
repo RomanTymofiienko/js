@@ -26,7 +26,7 @@ if ((number2 % 2 )) {
 
 let year = prompt();
 
-if (year % 4  && year % 400){
+if (year % 4 != 0 && year % 400 != 0){
   alert("365 days")
 }else {
   alert("366 days")
