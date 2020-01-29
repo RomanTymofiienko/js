@@ -275,4 +275,14 @@
 
 
 
+function generateNumbers(start, len){
+    
+    for (let i = start; i <= len.length; i++) {
+     var result =+ i;
+        
+    }
+    return result;
 
+}
+
+console.log(generateNumbers(1,10));
