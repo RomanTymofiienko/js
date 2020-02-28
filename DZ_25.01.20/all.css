@@ -1,0 +1,26 @@
+.zzz{
+    font-size: 30px;
+    color: rgb(134, 134, 155);
+}
+
+.button{
+    width: 140px;
+    height: 50px;
+    background: linear-gradient(to right, #F6EFD2, #CEAD78);
+    border: none;
+    border-radius: 20px;
+}
+.button:hover {
+    animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+@keyframes trambling-animation {
+    0%, 50%, 100% {
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        transform: rotate(-10deg);
+    }
+    20%, 40% {
+        transform: rotate(10deg);
+    }
+}
